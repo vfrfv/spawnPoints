@@ -9,7 +9,7 @@ public class CreatingObjects : MonoBehaviour
 
     private void Start()
     {
-     
+        StartCoroutine(Creating());
     }
 
     private IEnumerator Creating()
